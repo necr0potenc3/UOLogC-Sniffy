@@ -1,0 +1,145 @@
+﻿Build started 04/07/2011 07:10:08.
+     1>Project "D:\programming\projs\UOLogC&Sniffy\UOLogC.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\UOLogC.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\UOLogC.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Breakpoint.c Debugger.c logger.c Logwindow.c packets.c UOLog.c UOLogSniffy.c
+         UOLogSniffy.c
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(39): warning C4028: formal parameter 1 different from declaration
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(80): warning C4047: '=' : 'DWORD' differs in levels of indirection from 'LPVOID'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(106): warning C4101: 'res' : unreferenced local variable
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(106): warning C4101: 'pktid' : unreferenced local variable
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(241): warning C4047: '=' : 'void *' differs in levels of indirection from 'DWORD'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(242): warning C4047: '=' : 'void *' differs in levels of indirection from 'DWORD'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(210): warning C4101: 'log' : unreferenced local variable
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(255): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(284): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(304): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(306): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\uologsniffy.c(335): warning C4047: '=' : 'unsigned int' differs in levels of indirection from 'PBYTE'
+         UOLog.c
+     1>d:\programming\projs\uologc&sniffy\uolog.c(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(423): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(429): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(432): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(465): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(467): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(473): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(476): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(479): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(482): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(485): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(488): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : see declaration of 'sscanf'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(494): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : see declaration of 'strncpy'
+     1>d:\programming\projs\uologc&sniffy\uolog.c(504): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         packets.c
+     1>d:\programming\projs\uologc&sniffy\packets.c(38): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\packets.c(52): warning C4101: 'filter' : unreferenced local variable
+         Logwindow.c
+         logger.c
+     1>d:\programming\projs\uologc&sniffy\logger.c(46): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\programming\projs\uologc&sniffy\logger.c(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\programming\projs\uologc&sniffy\logger.c(71): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(82): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\programming\projs\uologc&sniffy\logger.c(87): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'vsprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(89): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>d:\programming\projs\uologc&sniffy\logger.c(99): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\programming\projs\uologc&sniffy\logger.c(110): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(120): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(124): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(126): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(128): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(131): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(135): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(144): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(152): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>d:\programming\projs\uologc&sniffy\logger.c(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+         Debugger.c
+     1>d:\programming\projs\uologc&sniffy\debugger.c(255): warning C4047: '=' : 'void *' differs in levels of indirection from 'DWORD'
+         Breakpoint.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _VC80_UPGRADE=0x0710 /l"0x0409" /nologo /fo"Debug\rsrc.res" rsrc.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\UOLogC.exe.embed.manifest.res" Debug\UOLogC_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\UOLogC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\UOLogC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\UOLogC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\UOLogC.lib" /MACHINE:X86 Debug\rsrc.res
+         Debug\UOLogC.exe.embed.manifest.res
+         Debug\Breakpoint.obj
+         Debug\Debugger.obj
+         Debug\logger.obj
+         Debug\Logwindow.obj
+         Debug\packets.obj
+         Debug\UOLog.obj
+         Debug\UOLogSniffy.obj
+       Manifest:
+         Deleting file "Debug\UOLogC.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\UOLogC.exe.embed.manifest" /manifest Debug\UOLogC.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\UOLogC.exe.embed.manifest.res" Debug\UOLogC_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\UOLogC.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\UOLogC.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Debug\UOLogC.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\UOLogC.lib" /MACHINE:X86 Debug\rsrc.res
+         Debug\UOLogC.exe.embed.manifest.res
+         Debug\Breakpoint.obj
+         Debug\Debugger.obj
+         Debug\logger.obj
+         Debug\Logwindow.obj
+         Debug\packets.obj
+         Debug\UOLog.obj
+         Debug\UOLogSniffy.obj
+         UOLogC.vcxproj -> D:\programming\projs\UOLogC&Sniffy\Debug\UOLogC.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\UOLogC.unsuccessfulbuild".
+         Touching "Debug\UOLogC.lastbuildstate".
+     1>Done Building Project "D:\programming\projs\UOLogC&Sniffy\UOLogC.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.15

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{eb20ab1c-49a2-49a1-af7e-c71cfcfffedf}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ccaac737-d7c8-4457-8f89-3f0fd347a8bc}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{020a7e2f-f877-4e0a-976c-8b8d93489bdf}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Breakpoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logwindow.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="packets.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UOLog.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UOLogSniffy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Breakpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="packets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UOLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UOLogSniffy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsrc.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
